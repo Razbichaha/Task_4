@@ -6,6 +6,18 @@ namespace Task_4
     {
         static void Main(string[] args)
         {
+                {
+                    // Console.ReadLine();
+                    answer = answer + templateAnswer[i-1]+" - " + Console.ReadLine()+". ";
+                answer = answer + " ";
+                }
+                else
+                {
+                Console.ReadLine();
+                }
+            }
+
+=========
             string answer = "";
             Console.WriteLine("Привет \nСейчас вам будет заданно несколько вопросов. \nПосле ввода ответа нажмите клавишу Enter. ");
             Console.ReadLine();
@@ -20,5 +32,8 @@ namespace Task_4
             Console.WriteLine(answer);
             Console.ReadLine();
         }
+
+
+
     }
 }
