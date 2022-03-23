@@ -16,18 +16,15 @@ namespace Task_4
             string mark = " ?";
          
             string answer = "";
-            for (int i=0;i<=messagesToUser.Length-1;i++)
             {
                 if (i != 0)
                 {
-                    Console.WriteLine(messagesToUser[i]+mark);
                     // Console.ReadLine();
                     answer = answer + templateAnswer[i-1]+" - " + Console.ReadLine()+". ";
                 answer = answer + " ";
                 }
                 else
                 {
-                Console.WriteLine(messagesToUser[i]);
                 Console.ReadLine();
                 }
             }
